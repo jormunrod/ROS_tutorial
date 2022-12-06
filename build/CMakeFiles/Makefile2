@@ -55,12 +55,14 @@ CMAKE_BINARY_DIR = /home/jorge/Documentos/ROS_tutorial/build
 # The main recursive "all" target.
 all: gtest/all
 all: my_package/all
+all: publisher_example/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
 preinstall: my_package/preinstall
+preinstall: publisher_example/preinstall
 
 .PHONY : preinstall
 
@@ -72,6 +74,7 @@ clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
 clean: my_package/clean
+clean: publisher_example/clean
 
 .PHONY : clean
 
@@ -149,6 +152,24 @@ my_package/preinstall:
 my_package/clean: my_package/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 .PHONY : my_package/clean
+
+#=============================================================================
+# Directory level rules for directory publisher_example
+
+# Recursive "all" directory target.
+publisher_example/all:
+
+.PHONY : publisher_example/all
+
+# Recursive "preinstall" directory target.
+publisher_example/preinstall:
+
+.PHONY : publisher_example/preinstall
+
+# Recursive "clean" directory target.
+publisher_example/clean:
+
+.PHONY : publisher_example/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/doxygen.dir

@@ -43,3 +43,10 @@
 /home/jorge/Documentos/ROS_tutorial/build/my_package/CMakeFiles/edit_cache.dir
 /home/jorge/Documentos/ROS_tutorial/build/my_package/CMakeFiles/test.dir
 /home/jorge/Documentos/ROS_tutorial/build/my_package/CMakeFiles/_catkin_empty_exported_target.dir
+/home/jorge/Documentos/ROS_tutorial/build/publisher_example/CMakeFiles/install/strip.dir
+/home/jorge/Documentos/ROS_tutorial/build/publisher_example/CMakeFiles/install/local.dir
+/home/jorge/Documentos/ROS_tutorial/build/publisher_example/CMakeFiles/install.dir
+/home/jorge/Documentos/ROS_tutorial/build/publisher_example/CMakeFiles/list_install_components.dir
+/home/jorge/Documentos/ROS_tutorial/build/publisher_example/CMakeFiles/rebuild_cache.dir
+/home/jorge/Documentos/ROS_tutorial/build/publisher_example/CMakeFiles/edit_cache.dir
+/home/jorge/Documentos/ROS_tutorial/build/publisher_example/CMakeFiles/test.dir

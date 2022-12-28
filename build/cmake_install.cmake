@@ -132,7 +132,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jorge/Documentos/ROS_tutorial/build/gtest/cmake_install.cmake")
   include("/home/jorge/Documentos/ROS_tutorial/build/my_package/cmake_install.cmake")
+  include("/home/jorge/Documentos/ROS_tutorial/build/publisher_complejo/cmake_install.cmake")
   include("/home/jorge/Documentos/ROS_tutorial/build/publisher_example/cmake_install.cmake")
+  include("/home/jorge/Documentos/ROS_tutorial/build/subscriber_example/cmake_install.cmake")
+  include("/home/jorge/Documentos/ROS_tutorial/build/learning_tf2/cmake_install.cmake")
 
 endif()
 

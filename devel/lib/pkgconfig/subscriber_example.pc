@@ -1,0 +1,8 @@
+prefix=/home/jorge/Documentos/ROS_tutorial/devel
+
+Name: subscriber_example
+Description: Description of subscriber_example
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

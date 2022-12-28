@@ -1,0 +1,8 @@
+prefix=/home/jorge/Documentos/ROS_tutorial/install
+
+Name: publisher_complejo
+Description: Description of publisher_complejo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
